@@ -9,3 +9,10 @@ docker-compose build
 ```
 docker-compose up
 ```
+
+### 確認手順
+```
+sam init --runtime go1.x --name sam-golang 
+
+make build
+```
