@@ -12,4 +12,4 @@ RUN apk add --no-cache --virtual build-deps build-base gcc && \
     pip3 install aws-sam-cli && \ 
     apk del build-deps
 
-WORKDIR /go/src/app
+WORKDIR /var/task
